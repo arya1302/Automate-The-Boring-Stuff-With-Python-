@@ -1,0 +1,89 @@
+1. What is [] ?
+
+   Ans:   [] refers to an empty list
+
+2. How would you assign the value 'hello' as the third value in a list stored
+in a variable named spam ? (Assume spam contains [2, 4, 6, 8, 10] .)
+
+  Ans :  spam[2]='hello'
+
+3.
+  For the following three questions, let’s say spam contains the list ['a',
+'b', 'c', 'd']
+
+  Ans: '3'*2=33
+       int(33/11)=3
+       spam[int('3'*2)/11]=3
+       spam[3]=d
+
+4.What does spam[-1] evaluate to?
+
+  Ans:    [-1] refers to the last index and spam[-1]='d'
+
+
+5.What does spam[:2] evaluate to?       
+
+  Ans:    ['a','b']
+
+For the following three questions, let’s say bacon contains the list
+[3.14, 'cat', 11, 'cat', True] .
+
+6. What does bacon.index('cat') evaluate to?
+
+
+  Ans :   1
+
+7  What does bacon.append(99) make the list value in bacon look like?
+ 
+  Ans: [3.14, 'cat', 11, 'cat', True , 99] .
+
+
+8. What does bacon.remove('cat') make the list value in bacon look like?
+
+  Ans : [3.14,  11, 'cat', True , 99]
+
+9.What are the operators for list concatenation and list replication?
+
+ Ans : list concatenation operator :  +
+       list replication opertor  : *
+
+10 .What is the difference between the append() and insert() list methods?
+
+ Ans : append() method call adds an argument to the end of the list ,
+ while insert() will insert a value at any index on the list
+
+11.What are two ways to remove values from a list?
+ Ans: using  remove() method and del statement
+
+12. Name a few ways that list values are similar to string values.
+
+*Like lists indexing , slicing are possible for strings too
+*Like lists strings can also be used
+      *with for loops
+      *with len()
+      *with in and not in operators 
+       
+13.What is the difference between lists and tuples?
+
+    * lists are typed with brackets whereas tuples are typed with paranthesis
+    * lists are mutable whereas tuples are immutable
+    
+14. How do you type the tuple value that has just the integer value 42 in it?  
+
+Ans : (42,)
+
+15. How can you get the tuple form of a list value? How can you get the list
+form of a tuple value?
+
+Ans: functions list() and tuple() will return list and tuple versionsof the values passed to them. 
+ tuple form of a list value : tuple([])
+ list form of tuple value :  list (())
+
+16.Variables that “contain” list values don’t actually contain lists directly.
+What do they contain instead?
+
+Ans : variables store references to list
+
+17.What is the difference between copy.copy() and copy.deepcopy() ?
+ Ans : copy.deepcopy() does not make any changes to original object but copy.copy changes the original object 
+   
